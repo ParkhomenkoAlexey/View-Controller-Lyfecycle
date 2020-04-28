@@ -64,13 +64,25 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vat-mS-4iP">
+                                <rect key="frame" x="78.5" y="736" width="257" height="22"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title=" Поделиться изображением" image="square.and.arrow.up" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareTapped:" destination="58n-zJ-E20" eventType="touchUpInside" id="yV3-fE-fr4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.13725490196078433" green="0.12156862745098039" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Va3-47-2WW" firstAttribute="centerX" secondItem="iNE-c2-CvE" secondAttribute="centerX" id="DLA-n5-nUl"/>
+                            <constraint firstItem="Vat-mS-4iP" firstAttribute="centerX" secondItem="XLS-Ao-m8L" secondAttribute="centerX" id="HNU-bo-oTc"/>
                             <constraint firstItem="iNE-c2-CvE" firstAttribute="trailing" secondItem="wGD-bz-ZdR" secondAttribute="trailing" constant="30" id="IAM-Z8-wJO"/>
                             <constraint firstItem="wGD-bz-ZdR" firstAttribute="leading" secondItem="iNE-c2-CvE" secondAttribute="leading" constant="30" id="IqG-BH-q3v"/>
                             <constraint firstItem="Va3-47-2WW" firstAttribute="top" secondItem="iNE-c2-CvE" secondAttribute="top" constant="50" id="KbY-fy-eno"/>
+                            <constraint firstItem="iNE-c2-CvE" firstAttribute="bottom" secondItem="Vat-mS-4iP" secondAttribute="bottom" constant="50" id="guv-hx-Tjb"/>
                             <constraint firstItem="wGD-bz-ZdR" firstAttribute="top" secondItem="Va3-47-2WW" secondAttribute="bottom" constant="40" id="v7L-xG-amR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iNE-c2-CvE"/>
@@ -181,4 +193,7 @@
             <point key="canvasLocation" x="1962" y="-183"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+    </resources>
 </document>
