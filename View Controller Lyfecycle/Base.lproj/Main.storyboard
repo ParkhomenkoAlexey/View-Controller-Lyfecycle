@@ -57,7 +57,9 @@
                                             <constraint firstAttribute="height" constant="50" id="zuA-qF-Qgc"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Изменить"/>
+                                        <state key="normal" title="Изменить">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="changeInfoTapped:" destination="58n-zJ-E20" eventType="touchUpInside" id="nha-SC-Q2y"/>
                                         </connections>
@@ -137,7 +139,9 @@
                                             <constraint firstAttribute="height" constant="50" id="aZd-tW-B8X"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Зарегистрироваться"/>
+                                        <state key="normal" title="Зарегистрироваться">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
                                         <connections>
                                             <segue destination="58n-zJ-E20" kind="show" id="a7p-eP-b6z"/>
                                         </connections>
@@ -159,7 +163,9 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rh-mT-yrG">
                                 <rect key="frame" x="186.5" y="182" width="41" height="30"/>
-                                <state key="normal" title="Photo"/>
+                                <state key="normal" title="Photo">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="photoButtonPressed:" destination="Lgv-pg-B19" eventType="touchUpInside" id="K4N-An-cRZ"/>
                                 </connections>
